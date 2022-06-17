@@ -1,0 +1,12 @@
+@use '../abstracts';
+
+
+// @each $color, $shades in abstracts.$colors {
+
+//     @each $shade, $value in $shades {
+//         .#{$color}-#{$shade} {
+//             background: $value;
+//         }
+//     }
+
+// }

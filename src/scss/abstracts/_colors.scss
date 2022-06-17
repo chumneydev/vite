@@ -1,0 +1,50 @@
+// basics
+$black: #000000;
+$white: #FFFFFF;
+$grey: #344E68;
+
+// primary
+$primary: #0C2339;
+$secondary: #004D68;
+$teal: #007C84;
+$teal-lite: #00AB88;
+
+// dev
+$salmon: #FF2D55;
+$purple: #5856D6;
+$orange: #FF9500;
+$yellow: #FFCC00;
+
+$colors: (
+    primary: (
+        base: $primary,
+        secondary: $secondary,
+        light: $teal,
+        lighter: $teal-lite,
+    ),
+    basic: (
+        black: $black,
+        white: $white,
+        grey: $grey,
+    ),
+    dev: (
+        base: $salmon,
+        secondary: $purple,
+        light: $orange,
+        lighter: $yello,
+    ),
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
