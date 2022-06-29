@@ -23,15 +23,15 @@ $colors: (
         lighter: $teal-lite,
     ),
     basic: (
-        black: $black,
-        white: $white,
-        grey: $grey,
+        dark: $black,
+        light: $grey,
+        lighter: $white,
     ),
     dev: (
         base: $salmon,
         secondary: $purple,
         light: $orange,
-        lighter: $yello,
+        lighter: $yellow,
     ),
 );
 
