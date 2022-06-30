@@ -11,7 +11,14 @@ export default defineConfig({
             output: {
                 entryFileNames: "assets/js/[name].js",
                 chunkFileNames: "assets/[ext]/[name].js",
-                assetFileNames: "assets/[ext]/[name].[ext]",
+                // assetFileNames: "assets/[ext]/[name].[ext]",
+                assetFileNames: (assetInfo) => {
+                    let extType = assetInfo.name.split('.').at(1);
+                    if (/png|jpe?g|svg|gif|tiff|bmp|ico/i.test(extType)) {
+                        extType = 'images';
+                    }
+                    return `assets/${extType}/[name][extname]`;
+                },
             }
         }
     }
