@@ -1,2 +1,43 @@
 @use '../abstracts' as *;
 
+.grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    display: grid;
+    justify-items: center;
+
+
+    &__header {
+        width: 100vw;
+        min-height: 300px;
+        background-color: var(--color-primary);
+    }
+
+    &__primary {
+        width: 50vw;
+        min-height: 300px;
+        background-color: var(--color-secondary);
+        box-shadow: 0 0 0 100vmax var(--color-secondary);
+        clip-path: inset(0 -100vmax);
+    }
+
+    &__secondary {
+        width: 50vw;
+        min-height: 300px;
+        background-color: var(--color-tertiary);
+        box-shadow: 0 0 0 100vmax var(--color-tertiary);
+        clip-path: inset(0 -100vmax);
+    }
+
+    &__tertiary {
+        width: 50vw;
+        min-height: 300px;
+        background-color: var(--color-quaternary);
+        box-shadow: 0 0 0 100vmax var(--color-quaternary);
+        clip-path: inset(0 -100vmax);
+    }
+
+
+
+
+}

@@ -23,7 +23,6 @@ export default defineConfig({
                         extType = 'images';
                     }
                     if (assetInfo.name === 'index.css') {
-                        console.log('fjfjfjfjf');
                         return assetInfo.name = `${extType}/app.css`;
                     }
 

@@ -5,15 +5,11 @@
 
 
 
-
-
-
-
-
-
-
-.yellow {
-    padding: 10px;
-    color: #000000;
-    background: yellow;
+body {
+    background-color: var(--background-primary);
 }
+
+#app {
+}
+
+

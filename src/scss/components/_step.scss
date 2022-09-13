@@ -1,0 +1,29 @@
+.step {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    border: 3px dashed var(--color-primary);
+    background-color: var(--background-primary);
+
+    &__container {
+        display: grid;
+        place-content: center;
+        height: 100%;
+        width: 100%;
+        max-width: 1440px;
+        padding: var(--padding-500);
+        background-color: var(--color-primary);
+
+        
+    }
+
+    &__copy {
+        padding-bottom: var(--padding-500);
+
+    }
+
+    &__button {
+        justify-self: center;
+        width: 50vmax;
+    }
+}
